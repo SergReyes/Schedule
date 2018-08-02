@@ -1,0 +1,2 @@
+export const FETCH_COURSES = 'FETCH COURSES';
+export const TOOGLE_ENROLLED = 'TOOGLE_ENROLLED';

@@ -1,0 +1,24 @@
+.schedule{
+    display: grid;
+    grid-template-rows: [space-one-s] 1fr [space-one-e] repeat(5, 80px) [progress-s] 1fr [progress-e];
+    grid-row-gap: 22px;
+    position:relative; 
+    width:100%;
+    height:100%;
+    grid-column: schedule-s/schedule-e;
+    grid-row: 1/-1; 
+    align-items:center;
+    justify-items: center; 
+    align-content: start;
+    padding-top: 237px;
+
+    &__title{
+        position:absolute;
+        top:154px;
+        @include border-left;
+        color:white;
+        font-family: 'alegreya';
+        font-size: 20px;
+       
+    }
+}
